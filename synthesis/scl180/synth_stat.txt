@@ -1,0 +1,64 @@
+
+16. Printing statistics.
+
+=== gcd ===
+
+   Number of wires:                275
+   Number of wire bits:            321
+   Number of public wires:          42
+   Number of public wire bits:      88
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                285
+     an02d0                          2
+     an12d1                          7
+     aoi211d1                        2
+     aoi21d1                         4
+     aoi221d1                        3
+     aoi221d2                        1
+     aoi222d1                        1
+     aoi22d1                        20
+     aoi31d1                         1
+     aoim21d1                        1
+     aoim22d1                        1
+     aon211d1                        5
+     aor211d1                        2
+     aor221d1                        2
+     aor222d1                        7
+     cg01d1                          8
+     clk2d2                         27
+     dfnrq1                         35
+     gcnfnn1                         2
+     inv0d0                         24
+     inv0d1                          1
+     mx02d1                          9
+     nd02d0                         11
+     nd02d1                          2
+     nd03d0                          2
+     nd03d1                          1
+     nd04d0                          2
+     nd12d0                         13
+     nd12d1                          2
+     nd13d1                          1
+     nr02d0                         10
+     nr02d1                          3
+     nr04d0                          8
+     nr04d2                          1
+     oai211d1                        2
+     oai21d1                        10
+     oai22d1                         2
+     oai31d1                         2
+     oaim21d1                       12
+     oan211d1                        5
+     oan211d2                        1
+     or02d0                          1
+     or03d0                          1
+     or04d0                          1
+     ora31d1                         1
+     xn02d1                          5
+     xr02d1                         18
+     xr03d1                          3
+
+   Chip area for module '\gcd': 8313.580000
+
