@@ -17,20 +17,20 @@ then we use the OpenSTA tool to get details such as timing & power.
 we can see the comparision below:
 
 ### instances 
-1. <ins>scl180: ![stats](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/synth_stat.txt)</ins>
+1. <ins>scl180: [stats](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/synth_stat.txt)</ins>
    
-2. <ins>sky130: ![stats](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/sky130/synth_stat.txt)</ins>
+2. <ins>sky130: [stats](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/sky130/synth_stat.txt)</ins>
 
 ### power 
-1. <ins>scl180: ![power_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/power_scl.txt)</ins>
+1. <ins>scl180: [power_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/power_scl.txt)</ins>
  
-2. <ins>sky130: ![power_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/sky130/power_sky.txt)</ins>
+2. <ins>sky130: [power_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/sky130/power_sky.txt)</ins>
 
 
 ### timing 
-1. <ins>scl180:![timing_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/timing_details_scl130.txt)</ins>
+1. <ins>scl180: [timing_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/timing_details_scl130.txt)</ins>
 
-2. <ins>sky130: ![timing_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/sky130/timing_details_sky130.txt)</ins>
+2. <ins>sky130: [timing_report](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/sky130/timing_details_sky130.txt)</ins>
 
 
 
