@@ -3,18 +3,18 @@
 We are checking the compatibility of scl180 with openroad flow.
 
 ## example 
-  1. ![gcd](https://github.com/vsdip/vsdscl180/blob/main/synthesis/scl180/1_1_yosys.v)
-     - we have chosen a simple example and started analyzing and comparing the outputs with sky130hd gcd example already availiable in the openroad flow.
+  1. [gcd](https://github.com/vsdip/vsdscl180/blob/main/synthesis/scl180/1_1_yosys.v)
+     - we have chosen a simple example and started analyzing and comparing the outputs with the sky130hd gcd example already available in the openroad flow.
 
-Tools : ![OpenRoad flow](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts).
+Tools : [OpenRoad flow](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts).
 
 ## Firstly, we start with synthesis:
 
-we use the OpenRoad tools flow to generate the required synthesized code.(Gate level netlist)
+we use the OpenRoad tools flow to generate the required synthesized code. (Gate level netlist)
 
 then we use the OpenSTA tool to get details such as timing & power.
 
-we can see the comparision below:
+we can see the comparison below:
 
 ### instances 
 1. <ins>scl180: [stats](https://github.com/vsdip/vsdscl180/blob/83f85ed33278ba3519867a79d0f2ba641ea1c1a4/synthesis/scl180/synth_stat.txt)</ins>
