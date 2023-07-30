@@ -1,0 +1,8 @@
+/usr/bin/riscv64-unknown-elf-gcc -march=rv32imc -mabi=ilp32 -Wl,-Bstatic,-T,../../sections.lds,--strip-debug -ffreestanding -nostdlib -o hkspi.elf ../../start.s hkspi.c
+/usr/bin/riscv64-unknown-elf-objcopy -O verilog hkspi.elf hkspi.hex 
+# to fix flash base address
+sed -i 's/@10000000/@00000000/g' hkspi.hex
+iverilog -Ttyp -DFUNCTIONAL -DSIM -I ../../  \
+-I /home/vsduser/open_pdks/sky130/sky130A -I ../../../../rtl -I ~/gits/caravel_pico/verilog/rtl \
+hkspi_tb.v -o hkspi.vvp 
+rm hkspi.elf
